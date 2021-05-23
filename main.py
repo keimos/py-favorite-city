@@ -1,16 +1,10 @@
-# This is a sample Python script.
+# This is a Python script for Favorite City
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+def favorite_city(name):
+    if name == "Chicago":
+        print("One of my favorite cities is The Windy City, " + name)
+    elif name == "New York":
+        print("One of my favorite cities is The Big Apple, " + name)
+    elif name == "Boston":
+        print("One of my favorite cities is Beantown,  " + name)
+    return favorite_city(name)
