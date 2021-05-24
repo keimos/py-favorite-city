@@ -7,4 +7,6 @@ def favorite_city(name):
         print("One of my favorite cities is The Big Apple, " + name)
     elif name == "Boston":
         print("One of my favorite cities is Beantown,  " + name)
-    return favorite_city(name)
+
+
+favorite_city(name="Chicago")
