@@ -28,3 +28,13 @@ Files
         Includes unit tests for the favorite_city function.
 
         Validates outputs for valid city names and invalid inputs.
+
+How to Use
+Running the Script
+
+    Install Python (if not already installed).
+
+    Save the script favorite_city.py to your local machine.
+
+    Run the script by passing a city name as input:
+    python
