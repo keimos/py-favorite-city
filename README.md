@@ -1,4 +1,30 @@
 # py-favorite-city
 Favorite City Test
 
-This Python program helps users identify their favorite cities by collecting and analyzing city preferences. The program prompts users to enter a list of cities they have visited or wish to visit, then asks them to rank these cities based on personal preference. Using this data, the program organizes the rankings and displays the top favorite cities in order. It also provides the option to filter cities by specific criteria such as country, climate, or activities. Additionally, the program can visualize the results using bar charts to show the popularity of each city, making it easy for users to explore and prioritize their favorite travel destinations.
+Favorite City Script and Tests
+
+This project includes a Python script that outputs a message for a favorite city and a test suite to ensure its functionality. It demonstrates best practices in Python coding, including modular design, error handling, and unit testing.
+Overview
+
+The script, favorite_city.py, defines a function that prints a message based on the name of a city. A separate test file, test_favorite_city.py, provides unit tests to validate the function's behavior for both valid and invalid city inputs.
+Features
+
+    Prints personalized messages for favorite cities: Chicago, New York, and Boston.
+
+    Handles invalid city inputs gracefully with appropriate messages.
+
+    Provides a robust test suite using Python's unittest framework.
+
+Files
+
+    favorite_city.py:
+
+        Contains the favorite_city function.
+
+        Prints customized messages for specific cities.
+
+    test_favorite_city.py:
+
+        Includes unit tests for the favorite_city function.
+
+        Validates outputs for valid city names and invalid inputs.
