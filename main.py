@@ -3,14 +3,16 @@ from io import StringIO
 import sys
 
 # This is a Python script for Favorite City
-
 def favorite_city(name):
-    if name == "Chicago":
-        print("One of my favorite cities is The Windy City, " + name)
-    elif name == "New York":
-        print("One of my favorite cities is The Big Apple, " + name)
-    elif name == "Boston":
-        print("One of my favorite cities is Beantown,  " + name)
+    city_map = {
+        "Chiacgo": "The Windy City",
+        "New York": "The Big Apple",
+        "Boston": "Beantown"
+    }
+    if name in city_map:
+        print(f"One of my favorite cities is {city_map[name]}, {name}")
+    else:
+        print(f"Sorry, {name} is NOT on the favorite cities list") # Handles invalid city input
 
 # Test cases
 class TestFavoriteCity(unittest.TestCase):
